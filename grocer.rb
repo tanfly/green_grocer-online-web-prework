@@ -52,4 +52,5 @@ def checkout(cart, coupon)
        if price_hash[:count] >= 1 
          total += (price_hash[:price] * price_hash[:count])
        end
-       
+     end
+   else 
