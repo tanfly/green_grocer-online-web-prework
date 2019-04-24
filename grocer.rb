@@ -44,3 +44,5 @@ def checkout(cart, coupon)
  total = 0 
  cart = consolidate_cart(cart)
  
+ if cart.length == 1 
+   
