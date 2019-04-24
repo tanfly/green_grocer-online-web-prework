@@ -48,4 +48,5 @@ def checkout(cart, coupon)
    cart = apply_coupons(cart, coupon)
    cart_discount = apply_clearance(cart)
    if cart.length > 1 
-     cart_clearance.map do |
+     cart_clearance.map do |item, price_hash|
+       
