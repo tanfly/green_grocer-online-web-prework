@@ -56,3 +56,6 @@ def checkout(cart, coupon)
    else 
      cart_discount.map do |item_name, price_hashd|
        total += (price_hashd[:price] * price_hashd[:count])
+     end
+   end
+ else 
