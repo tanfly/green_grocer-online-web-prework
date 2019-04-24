@@ -54,3 +54,4 @@ def checkout(cart, coupon)
        end
      end
    else 
+     cart_discount.map do |
