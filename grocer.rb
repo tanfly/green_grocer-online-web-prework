@@ -47,4 +47,5 @@ def checkout(cart, coupon)
  if cart.length == 1 
    cart = apply_coupons(cart, coupon)
    cart_discount = apply_clearance(cart)
-   if cart.length 
+   if cart.length > 1 
+     
