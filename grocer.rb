@@ -55,4 +55,4 @@ def checkout(cart, coupon)
      end
    else 
      cart_discount.map do |item, price_hash|
-       
+       total += 
