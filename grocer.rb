@@ -51,3 +51,5 @@ def checkout(cart, coupon)
      cart_clearance.map do |item, price_hash|
        if price_hash[:count] >= 1 
          total += (price_hash[:price] * price_hash[:count])
+       end
+       
