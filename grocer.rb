@@ -61,4 +61,4 @@ def checkout(cart, coupon)
  else 
    cart = apply_coupons(cart, coupon)
    cart_discount = apply_clearance(cart)
-   
+   cart_discount.map do |
