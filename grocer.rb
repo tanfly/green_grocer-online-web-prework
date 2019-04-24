@@ -54,5 +54,5 @@ def checkout(cart, coupon)
        end
      end
    else 
-     cart_discount.map do |item, price_hash|
-       total += 
+     cart_discount.map do |item_name, price_hashd|
+       total += (price_hashd[:price] * price_hashd[:])
