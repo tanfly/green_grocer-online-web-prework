@@ -60,4 +60,4 @@ def checkout(cart, coupon)
    end
  else 
    cart = apply_coupons(cart, coupon)
-   
+   cart_discount
