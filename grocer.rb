@@ -48,12 +48,10 @@ end
   total = 0
   cart.each do |item, price_hash|
     total += (price_hash[:price] * price_hash[:count])
-  end
 
    if total > 100
     0.9 * total
   else
     total
   end
-end
 end
