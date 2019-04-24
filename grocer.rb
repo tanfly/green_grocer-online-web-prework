@@ -45,4 +45,4 @@ def checkout(cart, coupon)
  cart = consolidate_cart(cart)
  
  if cart.length == 1 
-   
+   cart = apply_coupons(cart, coupon)
