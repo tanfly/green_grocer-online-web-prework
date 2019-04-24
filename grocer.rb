@@ -48,7 +48,7 @@ def checkout(cart, coupon)
    cart = apply_coupons(cart, coupon)
    cart_discount = apply_clearance(cart)
    if cart.length > 1 
-     cart_clearance.map do |item, price_hash|
+     cart_discount.map do |item, price_hash|
        if price_hash[:count] >= 1 
          total += (price_hash[:price] * price_hash[:count])
        end
